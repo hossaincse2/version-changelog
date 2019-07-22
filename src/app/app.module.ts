@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { VersionChildComponent } from './version-child/version-child.component';
 import { VersionParentComponent } from './version-parent/version-parent.component';
+import { VoteComponent } from './vote/vote.component';
+import { VoteTakerComponent } from './vote-taker/vote-taker.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, VersionChildComponent, VersionParentComponent ],
+  declarations: [ AppComponent, HelloComponent, VersionChildComponent, VersionParentComponent, VoteComponent, VoteTakerComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
